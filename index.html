@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Pricing component with toggle</title>
+
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body>
+
+  <div class="toggle-container">
+    <h1 class="title">Our Pricing</h1>
+  </div>
+  <div class="top">
+    <p>Annualy</p> 
+    <input autocomplete="off" type="checkbox" id="check" class="toggle" >
+    <label for="check"></label>
+    <p>Monthly</p> 
+  </div>
+
+  <div class="cards">
+    <div class="card basic white-bg">
+      <h4>Basic</h4>
+      <h1 class="price basic-plan">&dollar;199.99</h1>
+      <hr class="line">
+      <p>500 GB Storage</p>
+      <hr class="line">
+      <p>2 Users Allowed</p>
+      <hr class="line">
+      <p>Send up to 3 GB</p>
+      <hr class="line">
+      <button>LEARN MORE</button>
+    </div>
+    <div class="card pro">
+      <h4>Professional</h4>
+      <h1 class="price pro-plan">&dollar;249.99</h1>
+      <hr class="line">
+      <p>500 GB Storage</p>
+      <hr class="line">
+      <p>5 Users Allowed</p>
+      <hr class="line">
+      <p>Send up to 10 GB</p>
+      <hr class="line">
+      <button  class="pro-button">LEARN MORE</button>
+    </div>
+    <div class="card master white-bg">
+      <h4>Master</h4>
+      <h1 class="price master-plan">&dollar;399.99</h1>
+      <hr class="line">
+      <p>500 GB Storage</p>
+      <hr class="line">
+      <p>10 Users Allowed</p>
+      <hr class="line">
+      <p>Send up to 20 GB</p>
+      <hr class="line">
+      <button>LEARN MORE</button>
+    </div>
+  </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
